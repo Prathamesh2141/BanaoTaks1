@@ -48,7 +48,7 @@ class SortingVisualizer:
             for j in range(0, n-i-1):
                 if self.data[j] > self.data[j+1]:
                     self.data[j], self.data[j+1] = self.data[j+1], self.data[j]
-                    self.update_plot(delay=50)  # Decreased delay for smoother animation
+                    self.update_plot(delay=50)  # Decreased delay for smoother animationihififihadifhadihaif
                     self.root.update_idletasks()
 
     def selection_sort(self):
